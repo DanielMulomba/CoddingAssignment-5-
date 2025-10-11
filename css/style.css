@@ -3,7 +3,7 @@ body {
   font-family: 'Josefin Sans', Arial, sans-serif;
   color: #663300;
   margin: 0;
-  padding: 0;
+  padding: 0 5cm;
 }
 
 header {
@@ -60,6 +60,31 @@ input[type="text"] {
   width: 80px;
   padding: 4px;
   margin: 5px;
+}
+
+.recipe-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.recipe-btn {
+  display: block;
+  text-align: center;
+  background-color: #fff;
+  color: #663300;
+  border: 2px solid #804000;
+  border-radius: 6px;
+  padding: 8px 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.recipe-btn:hover {
+  background-color: #804000;
+  color: white;
+  transform: translateY(-2px);
 }
 
 footer {
