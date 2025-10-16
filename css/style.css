@@ -1,10 +1,18 @@
 body {
-  background-color: #f5f0e1;
+  background-image: url("../images/seafood-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
   font-family: 'Josefin Sans', Arial, sans-serif;
   color: #663300;
   margin: 0;
-  padding: 0 2cm;
- }
+  padding: 0 3cm;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
 
 header {
   text-align: left;
